@@ -1,0 +1,581 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"th",
+				"thresh"
+			],
+			[
+				"thres",
+				"threshhold"
+			],
+			[
+				"sen",
+				"sendsize"
+			],
+			[
+				"sends",
+				"sendstrength"
+			],
+			[
+				"re",
+				"receivesize"
+			],
+			[
+				"rec",
+				"receive"
+			],
+			[
+				"n",
+				"neuron"
+			],
+			[
+				"fs",
+				"fstrength"
+			],
+			[
+				"d",
+				"d"
+			],
+			[
+				"N",
+				"N"
+			],
+			[
+				"pred",
+				"pred_time"
+			],
+			[
+				"Ce",
+				"PRED_CENTER_OF_MASS"
+			],
+			[
+				"M",
+				"PRED_CENTER_OF_MASS"
+			],
+			[
+				"get",
+				"GetCenterOfMass"
+			],
+			[
+				"Ge",
+				"GetCenterOfMass"
+			],
+			[
+				"ptrps",
+				"ptrSP"
+			],
+			[
+				"AD",
+				"ADJUST_PRED_TIMES"
+			],
+			[
+				"ad",
+				"ADJUST_PRED_PERCENTILE"
+			],
+			[
+				"avpos",
+				"avposx"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"size",
+				"sizeof"
+			],
+			[
+				"dist",
+				"distsort"
+			],
+			[
+				"Ca",
+				"CalcDistVec"
+			],
+			[
+				"vel",
+				"vec_length"
+			],
+			[
+				"do",
+				"double"
+			],
+			[
+				"A",
+				"ADJUST_PRED_POS"
+			],
+			[
+				"movie",
+				"moviename"
+			],
+			[
+				"set",
+				"set_ylim"
+			],
+			[
+				"ce",
+				"centersize"
+			],
+			[
+				"cen",
+				"center"
+			],
+			[
+				"par",
+				"para_value2"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"O",
+				"OUTPUT_PARAMS"
+			],
+			[
+				"b",
+				"bothparams"
+			],
+			[
+				"para",
+				"para_value1"
+			],
+			[
+				"paraname",
+				"para_name1"
+			],
+			[
+				"paraval",
+				"para_values"
+			],
+			[
+				"para1",
+				"para_values1"
+			],
+			[
+				"paranem",
+				"para_name1"
+			],
+			[
+				"loc",
+				"location"
+			],
+			[
+				"max",
+				"max_invdist"
+			],
+			[
+				"mean",
+				"mean_dist"
+			],
+			[
+				"mean_di",
+				"mean_dist"
+			],
+			[
+				"fm",
+				"fmin"
+			],
+			[
+				"si",
+				"sizeL"
+			],
+			[
+				"rep",
+				"rep_range"
+			],
+			[
+				"pr",
+				"printf	printf …"
+			],
+			[
+				"r",
+				"r_ji"
+			],
+			[
+				"s-s",
+				"s-startpred-tail_length"
+			],
+			[
+				"E",
+				"EXEC"
+			],
+			[
+				"frame",
+				"frames_total"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"step",
+				"step_output"
+			],
+			[
+				"sim",
+				"sim_steps"
+			],
+			[
+				"sys",
+				"SysParams"
+			],
+			[
+				"sim_",
+				"sim_time"
+			],
+			[
+				"cou",
+				"counter_flee"
+			],
+			[
+				"force_",
+				"force_flee"
+			],
+			[
+				"p",
+				"printf	printf …"
+			],
+			[
+				"pred_",
+				"pred_time"
+			],
+			[
+				"fl",
+				"flee_range"
+			],
+			[
+				"av",
+				"avvelx"
+			],
+			[
+				"avvel",
+				"avvely"
+			],
+			[
+				"fle",
+				"flee_steepness"
+			],
+			[
+				"t",
+				"t"
+			],
+			[
+				"F",
+				"F"
+			],
+			[
+				"flees",
+				"flee_strength"
+			],
+			[
+				"pre",
+				"pred"
+			],
+			[
+				"predan",
+				"pred_angle"
+			],
+			[
+				"a",
+				"avvely"
+			],
+			[
+				"avv",
+				"avvely"
+			],
+			[
+				"siz",
+				"sizeL"
+			],
+			[
+				"avsin",
+				"avsiny"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/ishan/Documents/swarmdynamics/PredPrey/Python/SwarmDynamics.py",
+		"/home/ishan/Documents/swarmdynamics/PredPrey/C/swarmdyn.h",
+		"/home/ishan/Documents/swarmdynamics/PredPrey/C/RunSingle.py",
+		"/home/ishan/Documents/swarmdynamics/PredPrey/C/swarmdyn.c",
+		"/home/ishan/Documents/swarmdynamics/PredPrey/C/Scan2D.py",
+		"/home/ishan/Documents/swarmdynamics/PredPrey/C/AnimateRun.py",
+		"/home/ishan/Documents/swarmdynamics/PredPrey/C/Makefile",
+		"/home/ishan/Documents/swarmdynamics/PredPrey/C/AnimateRunCoMovingFrame.py",
+		"/home/ishan/Documents/swarmdynamics/PredPrey/C/Animation.avi",
+		"/home/ishan/Documents/swarmdynamics/PredPrey/Python/RunSimulationScan.py",
+		"/home/ishan/Documents/swarmdynamics/PredPrey/Python/RunSimulationScan.pyc",
+		"/home/ishan/.config/sublime-text-3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"GetC",
+			"Get",
+			"GET",
+			"calc",
+			"Calc",
+			"printf",
+			"force_flee",
+			"printf",
+			"Crea",
+			"Step",
+			"GetC",
+			"pred",
+			"BC",
+			"PRED_CEN",
+			"Creat",
+			"pred_speed",
+			"Step",
+			"Create",
+			"create",
+			"Create",
+			"\n}",
+			"avposy",
+			"avposx",
+			"ADJUST_PRED_POS",
+			"Calc",
+			"int comp",
+			"GetD",
+			"distance",
+			"GetDista",
+			"CreatePre",
+			"dist",
+			"calculations",
+			"com",
+			"mean",
+			"required",
+			"\"/\"",
+			"fopen",
+			"mkdir",
+			"print",
+			"mkdir",
+			"Outpu",
+			"Output",
+			"output",
+			"fopen",
+			"mean_in",
+			"InitG",
+			"InitG	",
+			"optarg",
+			"min_dist",
+			"WriteHist",
+			"Write",
+			"fopen",
+			"LoadCo",
+			"fopen",
+			"ptrsp",
+			"ptrSP",
+			"char",
+			"cha",
+			"char location",
+			"fopen",
+			"fs",
+			"fopen",
+			"[];",
+			"file",
+			"Output",
+			"Calc",
+			"counter_flee",
+			"Out",
+			"out",
+			"outp",
+			"counter_flee",
+			"IC==",
+			"IC ==",
+			"noise",
+			"flee_steep",
+			"Step",
+			"main",
+			"Dist",
+			"fmodf",
+			"Update",
+			"Step",
+			"Output",
+			"WriteGP",
+			".dat",
+			"Outpu",
+			"CreateP",
+			"Output",
+			"*);",
+			"Output",
+			"step_output",
+			"g",
+			"sim_steps",
+			"output_flag",
+			"Output",
+			"WriteGPScript",
+			"particle.dat",
+			"SysParams->output",
+			"step_output",
+			"alloc",
+			"malloc",
+			"IC",
+			"\n	",
+			"argc",
+			"argv",
+			"n",
+			"    pred->x[0] = avposx + fmodf((ptrSP->pred_radius*cos(angle),ptrSP->sizeL)) + avvelx/ptrSP->pred_speed0*ptrSP->pred_radius;\n",
+			"pred",
+			"\n    ",
+			";\n",
+			"\n		",
+			"		"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"out[1]",
+			"out[0]"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 55.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "QtNeuron.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 1000.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 760.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 281.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

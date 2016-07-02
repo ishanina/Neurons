@@ -6,15 +6,15 @@ using namespace std;
 
 class Neuron
 {
-    protected:
-        int* send;
     public:
-        int* receive;
+        vector<int> send;
+        vector<int> receive;
+    public:
         int sendsize;
         int receivesize;
         double threshhold;
         double plasticity;
-        double* sendstrength;
+        vector<int> sendstrength;
 
         Neuron() {}
 
@@ -23,13 +23,12 @@ class Neuron
             int i;
             sendsize = sndsize;
             receivesize = rcvsize;
-            send = new int[sendsize];
-            receive = new int[receivesize];
-            sendstrength = new double[sendsize];
-            for (i = 0; i < sendsize; i++)
-                send[i] = -1;
+            for (i = 0; i < sendsize; i++){
+                send.push_back(-1);
+                sendstrength.push_back(0);
+            }
             for (i = 0; i < receivesize; i++)
-                receive[i] = -1;
+                receive.push_back(-1);
             plasticity = plast;
             threshhold = thresh;
         }
@@ -37,8 +36,6 @@ class Neuron
         int ReceiveAdd(int value)
         {
             // Connects this neuron to receive, returns index of their connection
-            //cout << "Hi\n";
-
             int i = -1,j;
             for(j = 0; j < receivesize; j++)
                 if(receive[j] == value){
@@ -87,9 +84,8 @@ class InputNeuron : public Neuron
 {
     public:
         double value;
-        InputNeuron(int sndsize,double plast = 0.0,double val = 0)
+        InputNeuron(int sndsize,double plast = 0.0,double val = 0) : Neuron(sndsize,0,plast,0)
         {
-            Neuron(sndsize,0,plast,0.0);
             value = val;
         }
 };
@@ -98,9 +94,8 @@ class OutputNeuron : public Neuron
 {
     public:
         double value;
-        OutputNeuron(int rcvsize,double plast = 0.0,double thresh = 0.0)
+        OutputNeuron(int rcvsize,double plast = 0.0,double thresh = 0.0) : Neuron(0,rcvsize,plast,thresh)
         {
-            Neuron(0,rcvsize,plast,thresh);
             value = 0;
         }
 };
@@ -132,8 +127,9 @@ class Brain
                 neurons.push_back(new Neuron(sendsize,receivesize,plast,thresh));
             for (i = 0; i < NInputs; i++)
                 inputs.push_back(new InputNeuron(sendsize,plast));
-            for (i = 0; i < NOutputs; i++)
+            for (i = 0; i < NOutputs; i++){
                 outputs.push_back(new OutputNeuron(receivesize,plast,thresh));
+            }
         }
         Neuron* GetNeuron(int index)
         {
@@ -175,36 +171,26 @@ int main()
     Brain* brain = new Brain(100,10,10,120,120,1,0);
     int i, j;
 
-    cout << "here\n";
-    cout << brain->outputs[0]->receive[0] << "\n";
-/*
-    for (i = 0; i < 1; i++)
+    for (i = 0; i < 100; i++)
         for (j = 0; j < 90; j++)
         {
             int l = uni(rng);
             cout << "Connecting " << i << " to " << l << "\n";
-            brain->neurons[i].SendTo(&brain->neurons[l],i,l);
+            brain->neurons[i]->SendTo(brain->neurons[l],i,l);
         }
     for (i = 0; i < 10; i++)
         for (j = 0; j < 10; j++)
         {
             int l = uni(rng);
-            //cout << "Connecting Input" << i << " to " << l << "\n";
-            brain->inputs[i].SendTo(&brain->inputs[l],i,l);
-        }*/
-    for (i = 0; i < 10; i++)
-        for (j = 0; j < 100; j++)
-            cout << brain->outputs[i]->receive[j] << "\n";
+            cout << "Connecting Input" << i << " to " << l << "\n";
+            brain->inputs[i]->SendTo(brain->neurons[l],i,l);
+        }
     for (i = 0; i < 10; i++)
         for (j = 0; j < 10; j++)
         {
             int l = uni(rng);
             cout << "Connecting Output" << i << " to " << l << "\n";
             brain->outputs[i]->ReceiveFrom(brain->GetNeuron(l),i,l);
-            for (int k = 0; k < brain->outputs[i]->receivesize;k++)
-                cout << brain->outputs[i]->receive[k] << endl;
         }
-    for (i = 0; i < 10; i++)
-        cout << brain->outputs[i]->receive << endl;
     return 0;
 }
